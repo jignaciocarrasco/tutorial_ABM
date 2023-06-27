@@ -1,0 +1,65 @@
+---
+title: "Macro effects of household migrant household networks: the case of Colombian international migration"
+author: Ignacio Carrasco
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+bibliography: references.bib
+---
+
+```{r include=FALSE}
+rm(list = ls())
+```
+
+```{r Loading of required R libraries, message=FALSE, include=FALSE}
+library(openxlsx)
+library(xlsx)
+library(readxl)
+library(haven)
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(tidyverse)
+library(tidyr)
+library(naniar)
+require(nnet)
+require(ggplot2)
+library(fastDummies)
+library(readr)
+library(reshape2)
+library(naniar)
+library(foreign)
+library(srvyr)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# LAMP
+
+```{r Open datasets, include=FALSE}
+load(file = "data/lampCD.rda")
+load(file = "data/demig_final.rda")
+```
+
+# Lamp data structure is longitudinal: an example.
+```{r}
+lampABM %>%
+ select(id_pers, year, age, lgg_educ, lgg_mnet_spain, event_spain) %>%
+  filter(id_pers %in% c("9_2008_1_2_124_1"), year <= 2008)
+```
+
+# Data also incorporates macrolevel information.
+
+```{r}
+lampCD %>%
+ select(id_pers, year, age, lgg_educ, lgg_mnet_spain, commun_2, border_724, border_840, event_spain) %>%
+  filter(id_pers %in% c("9_2008_1_2_124_1"), year <= 2008)
+```
+
+
+
+
