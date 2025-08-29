@@ -57,7 +57,7 @@ Folder: `2_survey_ABM/`
   Runs all notebooks; all scenarios are simulated.
 
 # Using survey-based ABM in migration research
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16994291)](https://doi.org/10.5281/zenodo.16994291)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16994291.svg)](https://doi.org/10.5281/zenodo.16994291)
 
 This repository contains materials for a tutorial on **Agent-Based Modelling (ABM)**, with applications to migration research.  
 It includes **Julia code**, **Jupyter notebooks**, **R/Stata scripts**, supporting **survey data wrangling**, and a **presentation**.
