@@ -30,8 +30,9 @@ Manifest.toml
 script.docx
 
 # Input data
-/input/lampABM.rda
-/input/lampCD.rda
+data/lampABM.rda
+data/lampCD.rda
+2_survey/lampABM/
 
 
 
