@@ -1,0 +1,32 @@
+{
+  "title": "Tutorial: Agent-Based Modelling with Survey Data",
+  "description": "This repository contains the code and presentation for a tutorial on agent-based modelling (ABM) applied to migration research. It includes Julia scripts, Jupyter notebooks, and supporting slides.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Carrasco, Jose Ignacio",
+      "affiliation": "University of Oxford",
+      "orcid": "0000-0001-8256-3170"
+    }
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "agent-based modelling",
+    "ABM",
+    "migration",
+    "demography",
+    "Julia",
+    "Jupyter",
+    "tutorial"
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "presentation.pptx",
+      "resource_type": "publication-presentation"
+    }
+  ],
+  "access_right": "open"
+}

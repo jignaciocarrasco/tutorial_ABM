@@ -32,7 +32,7 @@ script.docx
 # Input data
 /data/lampABM.rda
 /data/lampCD.rda
-/2_survey/data/lampABM/
+/2_survey_ABM/data/lampABM.csv/
 
 
 

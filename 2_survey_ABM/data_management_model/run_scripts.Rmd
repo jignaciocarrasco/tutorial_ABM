@@ -1,0 +1,53 @@
+---
+title: "DemRes submission. Replicability material"
+author: Ignacio Carrasco
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+bibliography: references.bib
+---
+
+```{r include=FALSE}
+rm(list = ls())
+```
+
+```{r Loading of required R libraries, message=FALSE, include=FALSE}
+library(openxlsx)
+library(xlsx)
+library(readxl)
+library(haven)
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(tidyverse)
+library(tidyr)
+library(naniar)
+require(nnet)
+require(ggplot2)
+library(fastDummies)
+library(readr)
+library(reshape2)
+library(naniar)
+library(foreign)
+library(srvyr)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# LAMP
+
+```{r Open datasets, include=FALSE}
+load(file = "../2_survey_ABM/data/lampCD.rda")
+load(file = "../2_survey_ABM/data/lamp_macro.rda")
+```
+
+```{r}
+source("2_survey_ABM/data_management_model/manage_lamp_ABM.R") 
+```
+
+
+
