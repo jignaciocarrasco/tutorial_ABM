@@ -1,6 +1,6 @@
 {
-  "title": "Tutorial: Agent-Based Modelling with Survey Data",
-  "description": "This repository contains the code and presentation for a tutorial on agent-based modelling (ABM) applied to migration research. It includes Julia scripts, Jupyter notebooks, and supporting slides.",
+  "title": "Using survey-based ABM in migration research",
+  "description": "This repository contains the code and presentation for a tutorial on agent-based modelling (ABM) applied to migration research. It includes Julia scripts, Jupyter notebooks, and supporting slides. Originally developed for a tutorial delivered in Summer 2023 during the Research Incubator at the Max Planck Institute for Demographic Research.",
   "upload_type": "software",
   "creators": [
     {

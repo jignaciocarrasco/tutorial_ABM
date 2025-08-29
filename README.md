@@ -54,3 +54,9 @@ Folder: `2_survey_ABM/`
 - **`run.ipynb`**  
   Simulation functions, data transformations, and RMSE computation.
 - **`scenarios**
+
+# Using survey-based ABM in migration research
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.YOURDOI.svg)](https://doi.org/10.5281/zenodo.YOURDOI)
+
+This repository contains materials for a tutorial on **Agent-Based Modelling (ABM)**, with applications to migration research.  
+It includes **Julia code**, **Jupyter notebooks**, **R/Stata scripts**, supporting **survey data wrangling**, and a **presentation**.
