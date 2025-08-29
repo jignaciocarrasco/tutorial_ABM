@@ -1,6 +1,6 @@
 ## Run and export scenarios.
-
-include("run.jl")
+using NBInclude
+@nbinclude("run.ipynb")
 
 # Scenarios
 

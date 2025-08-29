@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../papers_2_3/pioneers-followers"
 		}
 	],
 	"settings": {}

@@ -29,4 +29,10 @@ Manifest.toml
 
 script.docx
 
+# Input data
+/input/lampABM.rda
+/input/lampCD.rda
+
+
+
 

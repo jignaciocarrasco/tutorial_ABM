@@ -1,0 +1,162 @@
+	stat_model	
+	b	_star
+No_migration		
+age	0.00000	
+age2	0.00000	
+female	0.00000	
+lgg_educ	0.00000	
+lgg_partner	0.00000	
+lgg_children	0.00000	
+lgg_ocstat_Skilled_manual	0.00000	
+lgg_ocstat_Lower_service	0.00000	
+lgg_ocstat_Routine_non_manual	0.00000	
+lgg_ocstat_Salariat	0.00000	
+lgg_ocstat_Unemployed	0.00000	
+lgg_ocstat_Unskilled_manual	0.00000	
+lgg_wexp_lg	0.00000	
+lgg_duasset	0.00000	
+lgg_mnet_intra	0.00000	
+lgg_mnet_usa	0.00000	
+lgg_mnet_spain	0.00000	
+lgg_mnet_international_commun	0.00000	
+commun_1	0.00000	
+commun_2	0.00000	
+commun_3	0.00000	
+commun_4	0.00000	
+commun_5	0.00000	
+commun_6	0.00000	
+commun_7	0.00000	
+commun_8	0.00000	
+commun_9	0.00000	
+commun_10	0.00000	
+commun_11	0.00000	
+commun_12	0.00000	
+commun_13	0.00000	
+commun_14	0.00000	
+lgg_border_840	0.00000	
+lgg_border_724	0.00000	
+lgg_violence	0.00000	
+lgg_gdp	0.00000	
+lgg_egrowth_usa	0.00000	
+lgg_egrowth_spain	0.00000	
+_cons	0.00000	
+Intraregional		
+age	0.07294	
+age2	-0.00166	
+female	0.03270	
+lgg_educ	0.03986	
+lgg_partner	0.12976	
+lgg_children	0.01414	
+lgg_ocstat_Skilled_manual	0.11165	
+lgg_ocstat_Lower_service	-0.21286	
+lgg_ocstat_Routine_non_manual	-0.25664	
+lgg_ocstat_Salariat	-0.47273	
+lgg_ocstat_Unemployed	-0.42007	
+lgg_ocstat_Unskilled_manual	0.00000	
+lgg_wexp_lg	0.03890	
+lgg_duasset	0.08090	
+lgg_mnet_intra	0.81776	
+lgg_mnet_usa	-17.12162	
+lgg_mnet_spain	0.42024	
+lgg_mnet_international_commun	0.08412	***
+commun_1	-0.76934	
+commun_2	0.01332	
+commun_3	-0.93094	
+commun_4	0.15007	
+commun_5	-1.33163	
+commun_6	-0.71637	
+commun_7	-1.54310	
+commun_8	-0.22178	
+commun_9	-0.82654	
+commun_10	0.41660	
+commun_11	1.03679	*
+commun_12	-0.04189	
+commun_13	-0.08388	
+commun_14	0.00000	
+lgg_border_840	-1.76750	
+lgg_border_724	0.97034	
+lgg_violence	-0.59668	
+lgg_gdp	-0.12027	
+lgg_egrowth_usa	0.19539	
+lgg_egrowth_spain	-0.00451	
+_cons	-8.23876	***
+USA		
+age	0.09487	
+age2	-0.00138	
+female	-0.20139	
+lgg_educ	0.09694	**
+lgg_partner	-0.73526	**
+lgg_children	-0.29658	*
+lgg_ocstat_Skilled_manual	0.76210	
+lgg_ocstat_Lower_service	1.24860	*
+lgg_ocstat_Routine_non_manual	1.72849	**
+lgg_ocstat_Salariat	0.98914	
+lgg_ocstat_Unemployed	0.76537	
+lgg_ocstat_Unskilled_manual	0.00000	
+lgg_wexp_lg	0.21822	
+lgg_duasset	-0.58097	
+lgg_mnet_intra	0.73368	
+lgg_mnet_usa	1.72949	***
+lgg_mnet_spain	-16.94395	
+lgg_mnet_international_commun	0.02269	
+commun_1	1.69901	*
+commun_2	1.52068	*
+commun_3	2.23950	***
+commun_4	1.55261	**
+commun_5	-0.35814	
+commun_6	0.03472	
+commun_7	-0.49893	
+commun_8	-0.16713	
+commun_9	-0.78754	
+commun_10	-16.58742	
+commun_11	0.65040	
+commun_12	1.31871	*
+commun_13	0.71286	
+commun_14	0.00000	
+lgg_border_840	0.50417	
+lgg_border_724	1.16765	
+lgg_violence	0.22989	
+lgg_gdp	-0.06710	
+lgg_egrowth_usa	0.03227	
+lgg_egrowth_spain	0.02234	
+_cons	-10.56764	***
+Spain		
+age	0.30933	***
+age2	-0.00507	***
+female	0.41528	*
+lgg_educ	0.12678	***
+lgg_partner	-0.45252	**
+lgg_children	-0.22628	**
+lgg_ocstat_Skilled_manual	-0.45687	
+lgg_ocstat_Lower_service	-0.33994	
+lgg_ocstat_Routine_non_manual	-0.55454	
+lgg_ocstat_Salariat	-0.98483	**
+lgg_ocstat_Unemployed	-0.12887	
+lgg_ocstat_Unskilled_manual	0.00000	
+lgg_wexp_lg	0.18401	
+lgg_duasset	-0.42208	*
+lgg_mnet_intra	-15.58281	
+lgg_mnet_usa	-16.50231	
+lgg_mnet_spain	1.89687	***
+lgg_mnet_international_commun	0.09401	***
+commun_1	-1.22469	
+commun_2	-0.39151	
+commun_3	-2.66888	*
+commun_4	0.57736	
+commun_5	-0.21469	
+commun_6	1.66295	***
+commun_7	0.09477	
+commun_8	-1.84753	
+commun_9	-0.01975	
+commun_10	-16.93936	
+commun_11	-0.11807	
+commun_12	-0.31561	
+commun_13	-0.33536	
+commun_14	0.00000	
+lgg_border_840	-0.28690	
+lgg_border_724	-1.94548	**
+lgg_violence	-0.02514	
+lgg_gdp	-0.22820	***
+lgg_egrowth_usa	0.13500	
+lgg_egrowth_spain	0.19410	***
+_cons	-12.77911	***
